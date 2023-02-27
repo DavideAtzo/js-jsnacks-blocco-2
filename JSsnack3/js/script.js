@@ -10,7 +10,7 @@ const listaInvitati = [];
 for (let i = 0; i < 3; i++) {
     let nomeInvitato = Math.floor(Math.random() * nomi.length);
     let cognomeInvitato = Math.floor(Math.random() * cognomi.length);
-    const sceltaInvitato = `${nomi[nomeInvitato]} ${nomi[cognomeInvitato]}`;
+    const sceltaInvitato = `${nomi[nomeInvitato]} ${cognomi[cognomeInvitato]}`;
     listaInvitati.push(sceltaInvitato);
 }
 console.log(listaInvitati);
